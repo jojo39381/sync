@@ -8,6 +8,7 @@ import arjun from './arjun.jpeg';
 import melissa from './melissa.jpeg';
 import malia from './malia.jpeg';
 
+
 function Detail() {
     return (
         

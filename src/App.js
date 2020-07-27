@@ -11,9 +11,8 @@ function App() {
 
     
    
-    
-      <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet"></link>
-      <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"></link>
+      
+      
       <div className='intro'>
       <Header></Header>
       <Introduction></Introduction>
@@ -22,7 +21,7 @@ function App() {
         <Detail></Detail>
       </div>
       
-      <Footer></Footer>
+        <Footer></Footer>
       
       
       
