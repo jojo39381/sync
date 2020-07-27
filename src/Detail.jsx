@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col'
 import helena from './helena.jpeg';
 import john from './john.jpeg';
 import arjun from './arjun.jpeg';
+import melissa from './melissa.jpeg';
+import malia from './malia.jpeg';
 
 function Detail() {
     return (
@@ -29,18 +31,18 @@ function Detail() {
             <Row>
             
                 <Col>
-                <i class='ion-university'></i>
+                <i className='ion-university'></i>
                 <h5>Mentorship</h5>
                 <p>We help you build the necessary skills and provide you with the tools you need to succeed as a founder</p>
                 </Col>
                 <Col>
-                <i class='ion-cash'></i>
+                <i className='ion-cash'></i>
                 <h5>Funding</h5>
                 <p>We provide funding to a selected number of startups and help you manage the money and resources</p>
                 </Col>
                 
                 <Col>
-                <i class='ion-person-stalker'>
+                <i className='ion-person-stalker'>
             
                 </i>
                 <h5>Bulding relationships</h5>
@@ -53,12 +55,12 @@ function Detail() {
             <h2 style={{textAlign:'center', color:'black'}}>Our Programs</h2>
             <Row>
                 <Col>
-                    <i class='ion-code-working'></i>
+                    <i className='ion-code-working'></i>
                     <h5>Startup Program</h5>
                     <p>Our startup program is a 6 week long fellowship designed to get you from idea to an MVP (minimum viable product)</p>
                 </Col>
                 <Col>
-                    <i class='ion-stats-bars'></i>
+                    <i className='ion-stats-bars'></i>
                     <h5>Investing Program</h5>
                     <p>Our investing program is a 8 week long fellowship to help you build investing skills to make strategic decisions within our fund.</p>
                 </Col>
@@ -84,8 +86,19 @@ function Detail() {
                     <Col>
                         <img src={arjun} alt='hello' className='profile'></img>
                         <h5>Arjun Vairavan</h5>
-                        <p>Co-founder and CEO of Kama</p>
+                        <p>Co-founder and CEO of Kama (Columbia)</p>
                     </Col>
+                    <Col>
+                       <img src={melissa} alt='hello' className='profile' />
+                       <h5>Melissa Du</h5>
+                       <p>Co-founder and CEO of Cadence (YC W20)</p>
+                    </Col>
+                    <Col>
+                       <img src={malia} alt='hello' className='profile' />
+                       <h5>Malia Jiang</h5>
+                       <p>Co-founder and COO of Spark (Berkeley)</p>
+                    </Col>
+
                 </Row>
             </section>
         </Container>
