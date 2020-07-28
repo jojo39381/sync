@@ -29,18 +29,18 @@ function Detail() {
             <h2 style={{textAlign:'center', color:'black'}}>What We Do</h2>   
             <Row>
             
-                <Col md='6' sm='12'>
+                <Col md='4' sm='12'>
                 <i className='ion-university'></i>
                 <h5>Mentorship</h5>
                 <p>We help you build the necessary skills and provide you with the tools you need to succeed as a founder</p>
                 </Col>
-                <Col md='6' sm='12'>
+                <Col md='4' sm='12'>
                 <i className='ion-cash'></i>
                 <h5>Funding</h5>
                 <p>We provide funding to a selected number of startups and help you manage the money and resources</p>
                 </Col>
                 
-                <Col md='6' sm='12'>
+                <Col md='4' sm='12'>
                 <i className='ion-person-stalker'>
             
                 </i>
@@ -93,11 +93,7 @@ function Detail() {
                        <h5>Melissa Du</h5>
                        <p>Co-founder and CEO of Cadence (YC W20)</p>
                     </Col>
-                    <Col md='6' sm='12'>
-                       <img src={malia} alt='hello' className='profile' />
-                       <h5>Malia Jiang</h5>
-                       <p>Co-founder and COO of Spark (Berkeley)</p>
-                    </Col>
+                   
 
                 </Row>
             </section>

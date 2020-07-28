@@ -4,6 +4,7 @@ function Footer() {
     return (
         <footer>
             <p>Made by Sync. 2020</p>
+            
         </footer>
     )
 }

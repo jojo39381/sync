@@ -21,8 +21,9 @@ function App() {
         <Detail></Detail>
       </div>
       
+      <div className='foot'>
         <Footer></Footer>
-      
+      </div>
       
       
 

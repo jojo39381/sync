@@ -9,7 +9,7 @@ function Header() {
         <header>
         <Navbar expand="lg">
         <Navbar.Brand href="#home"><h1 className='logo'>Sync.</h1></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{visibility:'hidden'}}/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="#programs"><h2 className='nav-item'>Fellowship</h2></Nav.Link>
