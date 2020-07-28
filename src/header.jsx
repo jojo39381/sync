@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Header() {
     return ( 
         <header>
-        <Navbar expand="lg">
+        <Navbar expand="lg" className='.d-none .d-sm-block' >
         <Navbar.Brand href="#home"><h1 className='logo'>Sync.</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{visibility:'hidden'}}/>
         <Navbar.Collapse id="basic-navbar-nav">
