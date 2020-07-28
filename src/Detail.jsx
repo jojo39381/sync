@@ -101,6 +101,15 @@ function Detail() {
 
                 </Row>
             </section>
+            <section>
+                <Row>
+                    <Col>
+                        <h1>Startup</h1>
+                        <p>Every semester, we select a few startups to be in our fellowship program and we help them build their product. At the end of the fellowship, we will pick a few startups to invest in. </p>
+                    </Col>
+                    
+                </Row>
+            </section>
         </Container>
        
     )

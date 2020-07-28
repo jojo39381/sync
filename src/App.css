@@ -110,6 +110,11 @@ html, body {
     color:black;
     padding: 100px;
 }
+section {
+    text-align:center;
+    color:black;
+    
+}
 
 .profile {
     width: 100px;
