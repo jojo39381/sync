@@ -16,12 +16,12 @@ function Detail() {
             <section>
             <Row className='detail-row'>
                 <Col className='detail-section'>
-                    <h1>What is Sync?</h1>
+                    <h2>What is Sync?</h2>
                     
                 </Col>
                 <Col className='detail-section' >
                     
-                    <h1>Sync. is a student-founded, student-run, VC & Investing fund, focused on building a community of founders and investors and fostering connections.</h1>
+                    <h2>Sync. is a student-founded, student-run, VC & Investing fund, focused on building a community of founders and investors and fostering connections.</h2>
                 </Col>
                 
             </Row>
@@ -45,32 +45,33 @@ function Detail() {
                 <i className='ion-person-stalker'>
             
                 </i>
-                <h5>Bulding relationships</h5>
+                <h5>Connections</h5>
                 <p>We connect you with other startup founders and industry professionals to broaden your network</p>
                 </Col>
                 
             </Row>
             </section>
-            <section className='program-row'>
+            <section className='program-row' id='programs'>
             <h2 style={{textAlign:'center', color:'black'}}>Our Programs</h2>
             <Row>
                 <Col>
                     <i className='ion-code-working'></i>
                     <h5>Startup Program</h5>
-                    <p>Our startup program is a 6 week long fellowship designed to get you from idea to an MVP (minimum viable product)</p>
+                    <p>Our startup program is a 2 month long fellowship designed to get you from an idea to an MVP (minimum viable product) and attract an user base.</p>
                 </Col>
                 <Col>
-                    <i className='ion-stats-bars'></i>
-                    <h5>Investing Program</h5>
-                    <p>Our investing program is a 8 week long fellowship to help you build investing skills to make strategic decisions within our fund.</p>
+                    <i className='ion-code-working'></i>
+                    <h5>Executive Program</h5>
+                    <p>Our executive program is a 2 week long fellowship designed to get you from up and running to help us facilitate and manage the club.</p>
                 </Col>
+                
             </Row>
 
             <button className='apply-button'>Click Here To Apply</button>
             </section>
 
 
-            <section className='partner-row'>
+            <section className='partner-row' id='partners'>
             <h2>Our Partners</h2>
                 <Row>
                     <Col>
@@ -101,15 +102,17 @@ function Detail() {
 
                 </Row>
             </section>
-            <section>
+            <section className='explain-process-row'>
                 <Row>
                     <Col>
-                        <h1>Startup</h1>
+                        <h1>How it works</h1>
                         <p>Every semester, we select a few startups to be in our fellowship program and we help them build their product. At the end of the fellowship, we will pick a few startups to invest in. </p>
+                        <p>We provide our members with the necessary tools and resources to succeed, so they can focus on building good products.</p>
                     </Col>
                     
                 </Row>
             </section>
+            
         </Container>
        
     )
