@@ -7,7 +7,7 @@ import john from './john.jpeg';
 import arjun from './arjun.jpeg';
 import melissa from './melissa.jpeg';
 import malia from './malia.jpeg';
-
+import man from './man.jpg';
 
 function Detail() {
     return (
@@ -67,7 +67,7 @@ function Detail() {
                 
             </Row>
 
-            <button className='apply-button'>Click Here To Apply</button>
+            <button className='apply-button'><a href='https://josephycyeh.typeform.com/to/Pugk9J8T'>Click Here to Apply</a></button>
             </section>
 
 
@@ -102,13 +102,19 @@ function Detail() {
 
                 </Row>
             </section>
-            <section className='explain-process-row'>
-                <Row>
-                    <Col>
+            <section>
+                <Row className='explain-process-row'>
+                    <Col className='explanation-column'>
                         <h1>How it works</h1>
-                        <p>Every semester, we select a few startups to be in our fellowship program and we help them build their product. At the end of the fellowship, we will pick a few startups to invest in. </p>
-                        <p>We provide our members with the necessary tools and resources to succeed, so they can focus on building good products.</p>
+                        
                     </Col>
+                    <Col className='explanation-column'>
+                        <div className='explanation-image'>
+                            <p>Every semester, we select a few startups to be in our fellowship program and we help them build their product. At the end of the fellowship, we will pick a few startups to invest in. 
+                            <br></br>We provide our members with the necessary tools and resources to succeed, so they can focus on building good products.</p>
+                        </div>
+                    </Col>
+            
                     
                 </Row>
             </section>
