@@ -7,7 +7,6 @@ import john from './john.jpeg';
 import arjun from './arjun.jpeg';
 import melissa from './melissa.jpeg';
 import malia from './malia.jpeg';
-import man from './man.jpg';
 
 function Detail() {
     return (
