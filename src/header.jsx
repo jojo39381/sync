@@ -8,7 +8,7 @@ function Header() {
     return ( 
         <header>
         <Navbar expand="lg" className='.d-none .d-sm-block' >
-        <Navbar.Brand href="#home"><img src={sync} width='60' height='60' className="d-inline-block align-top"></img> <h1 className='logo'>Sync.</h1></Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={sync} alt='logo' width='60' height='60' className="d-inline-block align-top"></img> <h1 className='logo'>Sync.</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{visibility:'hidden'}}/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
