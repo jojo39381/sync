@@ -14,11 +14,11 @@ function Detail() {
         <Container fluid>
             <section>
             <Row className='detail-row'>
-                <Col className='detail-section'>
+                <Col className='detail-section' md='1'>
                     <h2>What is Sync?</h2>
                     
                 </Col>
-                <Col className='detail-section' >
+                <Col className='detail-section' md='1' >
                     
                     <h2>Sync. is a student-founded, student-run, VC & Investing fund, focused on building a community of founders and investors and fostering connections.</h2>
                 </Col>
@@ -59,7 +59,7 @@ function Detail() {
                     <p>Our startup program is a 2 month long fellowship designed to get you from an idea to an MVP (minimum viable product) and attract an user base.</p>
                 </Col>
                 <Col>
-                    <i className='ion-code-working'></i>
+                    <i className='ion-stat-bar'></i>
                     <h5>Executive Program</h5>
                     <p>Our executive program is a 2 week long fellowship designed to get you from up and running to help us facilitate and manage the club.</p>
                 </Col>
