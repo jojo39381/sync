@@ -104,7 +104,9 @@ function Detail() {
 
 
 
-                    
+
+
+
                     {/* <Col md='6' sm='12'>
                        <img src={hugo} alt='hello' className='profile' />
                        <h5>Hugo Zhan</h5>
