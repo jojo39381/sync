@@ -93,6 +93,18 @@ function Detail() {
                        <h5>Melissa Du</h5>
                        <p>Co-founder and CEO of Cadence (YC W20)</p>
                     </Col>
+
+
+
+
+
+
+
+
+
+
+
+                    
                     {/* <Col md='6' sm='12'>
                        <img src={hugo} alt='hello' className='profile' />
                        <h5>Hugo Zhan</h5>
