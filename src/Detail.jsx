@@ -6,7 +6,7 @@ import helena from './helena.jpeg';
 import john from './john.jpeg';
 import arjun from './arjun.jpeg';
 import melissa from './melissa.jpeg';
-
+import hugo from './hugo.jpg';
 
 function Detail() {
     return (
@@ -92,6 +92,11 @@ function Detail() {
                        <img src={melissa} alt='hello' className='profile' />
                        <h5>Melissa Du</h5>
                        <p>Co-founder and CEO of Cadence (YC W20)</p>
+                    </Col>
+                    <Col md='6' sm='12'>
+                       <img src={hugo} alt='hello' className='profile' />
+                       <h5>Hugo Zhan</h5>
+                       <p>World-Renown Ping Pong Champion (Berkeley)</p>
                     </Col>
                    
 
