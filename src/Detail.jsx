@@ -53,19 +53,21 @@ function Detail() {
             <section>
             
             <Row className='program-row' id='programs'>
-            <h2 style={{textAlign:'center', color:'black', width:'100%'}}>Our Programs</h2>
+            <h2 style={{textAlign:'center', color:'black', width:'100%'}}>Join Us!</h2>
                 <Col md='6' sm='12'>
                     <i className='ion-code-working'></i>
                     <h5>Startup Program</h5>
                     <p>Our startup program is a 2 month long fellowship designed to get you from an idea to an MVP (minimum viable product) and attract an user base.</p>
+                    <button className='apply-button'><a href='https://josephycyeh.typeform.com/to/Pugk9J8T'>Click Here to Apply</a></button>
                 </Col>
                 <Col md='6' sm='12'>
                     <i className='ion-stats-bars'></i>
-                    <h5>Executive Program</h5>
-                    <p>Our executive program is a 2 week long fellowship designed to get you from up and running to help us facilitate and manage the club.</p>
+                    <h5>Executive Board</h5>
+                    <p>Our executive board members help us manage our fellowship program, facilitate workshops, and ensure a great experience for our members.</p>
+                    <button className='apply-button'><a href='https://josephycyeh.typeform.com/to/Pugk9J8T'>Click Here to Apply</a></button>
                 </Col>
 
-                <button className='apply-button'><a href='https://josephycyeh.typeform.com/to/Pugk9J8T'>Click Here to Apply</a></button>    
+                    
             </Row>
 
             
