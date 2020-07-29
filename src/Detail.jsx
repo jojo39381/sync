@@ -37,7 +37,7 @@ function Detail() {
                 <Col md='4' sm='12'>
                 <i className='ion-cash'></i>
                 <h5>Funding</h5>
-                <p>We provide funding to a selected number of startups and help you manage the money and resources</p>
+                <p>We give 2-5 startups $1500 dollars for a 10% stake and help you manage the money and resources</p>
                 </Col>
                 
                 <Col md='4' sm='12'>
@@ -45,7 +45,7 @@ function Detail() {
             
                 </i>
                 <h5>Connections</h5>
-                <p>We connect you with other startup founders and industry professionals to broaden your network</p>
+                <p>We connect you with other successful startup founders and industry professionals to broaden your network</p>
                 </Col>
                 
             </Row>
@@ -105,8 +105,7 @@ function Detail() {
                     </Col>
                     <Col className='explanation-column' md='6' sm='12'>
                         <div className='explanation-image'>
-                            <p>Every semester, we select a few startups to be in our fellowship program and we help them build their product. At the end of the fellowship, we will pick a few startups to invest in. 
-                            <br></br>We provide our members with the necessary tools and resources to succeed, so they can focus on building good products.</p>
+                            <p className='explanation'> During your fellowship, we help you turn your ideas into a usable product.<br></br><br></br>We provide our members with the necessary tools and resources to succeed, so they can focus on building good products.</p>
                         </div>
                     </Col>
             
