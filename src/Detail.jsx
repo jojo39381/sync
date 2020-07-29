@@ -37,7 +37,7 @@ function Detail() {
                 <Col md='4' sm='12'>
                 <i className='ion-cash'></i>
                 <h5>Funding</h5>
-                <p>We give 2-5 startups $1500 dollars for a 10% stake and help you manage the money and resources</p>
+                <p>We select 2-5 startups to give $1500 dollars as a grant and help you manage the money and resources</p>
                 </Col>
                 
                 <Col md='4' sm='12'>
