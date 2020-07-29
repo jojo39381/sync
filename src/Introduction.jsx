@@ -5,7 +5,7 @@ function Introduction() {
     return (
         
         <div className='introduction'>
-            <h1 >Sync is the premier Berkeley startup incubator and VC fund. <br></br> <br></br>Founded by students. For Students.</h1>
+            <h1 >Join UC Berkeley’s premier startup incubator and VC fund community <br></br> <br></br>A Student Founded, Student Run Initiative</h1>
         </div>
         
         

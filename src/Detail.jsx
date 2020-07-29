@@ -15,12 +15,12 @@ function Detail() {
             <section>
             <Row className='detail-row'>
                 <Col className='detail-section' md='6' sm='12'>
-                    <h2>What is Sync?</h2>
+                    <h2>What is bearLabs.?</h2>
                     
                 </Col>
                 <Col className='detail-section' md='6' sm='12'>
                     
-                    <h2>Sync. is a student-founded, student-run, VC & Investing fund, focused on building a community of founders and investors and fostering connections.</h2>
+                    <h2>bearLabs. is a student-founded, student-run, VC & Investing fund, focused on building a community of founders and investors and fostering connections.</h2>
                 </Col>
                 
             </Row>
@@ -50,9 +50,10 @@ function Detail() {
                 
             </Row>
             </section>
-            <section className='program-row' id='programs'>
-            <h2 style={{textAlign:'center', color:'black'}}>Our Programs</h2>
-            <Row>
+            <section>
+            
+            <Row className='program-row' id='programs'>
+            <h2 style={{textAlign:'center', color:'black', width:'100%'}}>Our Programs</h2>
                 <Col md='6' sm='12'>
                     <i className='ion-code-working'></i>
                     <h5>Startup Program</h5>
@@ -63,10 +64,11 @@ function Detail() {
                     <h5>Executive Program</h5>
                     <p>Our executive program is a 2 week long fellowship designed to get you from up and running to help us facilitate and manage the club.</p>
                 </Col>
-                
+
+                <button className='apply-button'><a href='https://josephycyeh.typeform.com/to/Pugk9J8T'>Click Here to Apply</a></button>    
             </Row>
 
-            <button className='apply-button'><a href='https://josephycyeh.typeform.com/to/Pugk9J8T'>Click Here to Apply</a></button>
+            
             </section>
 
 
