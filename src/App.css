@@ -45,7 +45,8 @@ html, body {
 .intro {
     
     
-    background-image: url(./image.svg);
+    /* background-image: url(./image.svg); */
+    background-color:black;
     background-size: cover;
     
     width: 100%;

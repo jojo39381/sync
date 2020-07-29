@@ -6,7 +6,7 @@ import helena from './helena.jpeg';
 import john from './john.jpeg';
 import arjun from './arjun.jpeg';
 import melissa from './melissa.jpeg';
-import hugo from './hugo.jpg';
+
 
 function Detail() {
     return (
