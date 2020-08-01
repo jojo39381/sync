@@ -15,6 +15,7 @@ html, body {
     color: white;
     display:inline-block;
     vertical-align:middle;
+    margin-left: 15px;
     
 
 }
@@ -163,6 +164,14 @@ html, body {
     
 }
 
+
+.step-row {
+    padding: 100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 section {
     text-align:center;
     color:black;
@@ -180,6 +189,13 @@ i {
     font-size: 70px;
     color: gray;
 }
+
+
+
+
+
+
+
 
 .foot {
     position:relative;

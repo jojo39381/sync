@@ -135,6 +135,56 @@ function Detail() {
                     
                 </Row>
             </section>
+
+
+            <section>
+                <Row className='step-row' style={{backgroundColor:'#BA0299', color:'white'}}>
+                    <Col>
+                        <h1>The Process</h1>
+                    </Col>
+                </Row>
+                <Row className='step-row'>
+                    <Col md='6' sm='12'>
+                        <h1>Step 1</h1>
+                        
+                    </Col>
+                    <Col  md='6' sm='12'>
+                        <p>At the start of the cycle, we host a 2 day event where founders can discuss and bounce off ideas with other founders and students. The goal is to come up with a new idea or innovate on existing ones.</p>
+                    </Col>
+                </Row>
+                <Row className='step-row'>
+                    <Col md='6' sm='12'>
+                        <p>After the event, the program officially starts! This is where all the building happens. We will host workshops, bring in speakers, and host fun social nights to help you in your journey.</p>  
+                        
+                    </Col>
+                    <Col  md='6' sm='12'>
+                        <h1>Step 2</h1>
+                    </Col>
+                </Row>
+                <Row className='step-row'>
+                    <Col md='6' sm='12'>
+                        <h1>Step 3</h1>  
+                        
+                    </Col>
+    
+                    <Col  md='6' sm='12'>
+                        <p>At the end of the program, our founders will demo their product to us, other students, and a selected group of investors and partners. We will select a few to receive grants.</p>
+                    </Col>
+
+                  
+
+
+                </Row>
+
+                <Row className='step-row' style={{backgroundColor:'#42019F', color:'white'}}>
+                    <Col>
+                        <h1>Demo Day!</h1>
+                    </Col>
+                </Row>
+
+
+                
+            </section>
             
         </Container>
        
